@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang=en>
+<head>
+    <meta charset="utf-8">
+    <title>Stripe example</title>
+</head>
+<body>
+    <form action="/payment" method="POST">
+         <input type="hidden" name="action" value="setup">
+        <input type="hidden" name="userid" value="1">
+        <input type="hidden" name="email" value="tester@wize.fm">
+        <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                data-key="pk_test_pNpoEfRMyVc7ZS7fyHWlu3mT">
+        </script>
+    </form>
+    
+</body>
+</html>
+
+<!-- http://nairteashop.org/getting-started-with-stripe-part-2/ -->

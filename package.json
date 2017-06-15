@@ -1,0 +1,9 @@
+{
+  "name": "wize-nf-gw-app",
+  "main": "nfserver.js",
+  "dependencies": {
+    "apn": "^2.1.4",
+    "body-parser": "^1.17.2",
+    "method-override": "^2.3.9"
+  }
+}
